@@ -1,0 +1,114 @@
+html {
+    background-image: linear-gradient(to top left, rgb(190, 183, 183) 50%, rgb(248, 248, 239) 50%);
+}
+
+h1,
+h2 {
+    text-align: center;
+    color: rgb(66, 100, 96);
+}
+
+h1 {
+    font-size: 2.7em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    margin-top: 20px;
+}
+
+.container {
+    margin: 4em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container>div {
+    background-color: rgb(200, 228, 238);
+    width: 300px;
+    height: 400px;
+    text-align: center;
+    margin: 1em;
+    border: 2px solid rgb(76, 80, 112);
+}
+
+input {
+    margin-top: 15px;
+    width: 15em;
+    height: 1.5em;
+}
+
+.btnspace {
+    margin-bottom: 1em;
+    width: 100px;
+    height: 30px;
+    background-color: rgb(175, 175, 175);
+    color: white;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.resultado {
+    font-size: 1.4em;
+    font-weight: bold;
+    background-color: rgba(64, 85, 124, 0.644);
+    height: 25px;
+    text-align: center;
+    margin-top: 1em;
+    padding: .5em;
+    color: white;
+}
+
+.item {
+    margin-bottom: 1em;
+}
+
+.start {
+    text-align: start;
+}
+
+.h4bx6 {
+    text-align: center;
+    margin-bottom: 0.4em !important;
+}
+
+.ulbx6 {
+    margin-top: 1em !important;
+}
+
+.btnbx {
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btnside {
+    width: 80px;
+    height: 40px;
+    margin: .5em;
+}
+
+@media (max-width: 460px) {
+    .btnbx6 {
+        width: 60px;
+        height: 50px;
+    }
+    .ulbx6 {
+        margin-top: 0 !important;
+    }
+}
+
+@media (max-width: 420px) {
+    .btnbx6 {
+        width: 50px;
+        height: 40px;
+        font-size: 11px;
+    }
+}
