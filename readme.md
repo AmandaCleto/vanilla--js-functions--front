@@ -12,8 +12,7 @@ Each 'box' has a different function built using JavaScript. The intuition of thi
 
 
 ## 🌐 Links:
-See the result: https://codepen.io/AmandaCleto/pen/gObqPmm
-
+See the result: [<ins>Codepen: Javascript_functions</ins>](https://codepen.io/AmandaCleto/pen/gObqPmm).
 <br>
 
 
